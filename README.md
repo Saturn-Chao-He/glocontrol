@@ -14,7 +14,7 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 
 <div align="center">
   <img src="arc.png" width="100%" title="workflow"><br>
-  <strong>Figure 1.</strong> loControl system architecture. The robot streams H.264 video and receives motion commands through a cloud-hosted Janus WebRTC server over theInternet. The operator requires only a standard web browser. Internet connectivity can be provided by 5G or Starlink, enabling operation in infrastructure-denied disaster environments.
+  <strong>Figure 1.</strong> GloControl system architecture. The robot streams H.264 video and receives motion commands through a cloud-hosted Janus WebRTC server over theInternet. The operator requires only a standard web browser. Internet connectivity can be provided by 5G or Starlink, enabling operation in infrastructure-denied disaster environments.
 </div>
 <br><br>
 
