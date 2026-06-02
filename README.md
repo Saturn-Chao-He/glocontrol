@@ -34,7 +34,7 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 
 <div align="center">
   <img src="rtt.png" width="50%" title="workflow"><br>
-  <strong>Figure 4.</strong> RTT ping-pong scheme over the data channel. (RTT = $t_{\text{receive}}$ $-$ $t_{\text{send}}$, both timestamps recorded on the operator clock, no clock synchronization required.)
+  <strong>Figure 4.</strong> RTT ping-pong scheme over the data channel.
 </div>
 <br><br>
 
