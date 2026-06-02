@@ -20,26 +20,26 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 
 
 <div align="center">
-  <img src="robot.png" width="100%" title="workflow"><br>
+  <img src="robot.png" width="50%" title="workflow"><br>
   <strong>Figure 2.</strong> Disaster response robot is holding medicine and gauze and ready to deliver.
 </div>
 <br><br>
 
 
 <div align="center">
-  <img src="ui.png" width="100%" title="workflow"><br>
+  <img src="ui.png" width="50%" title="workflow"><br>
   <strong>Figure 3.</strong> GloControl operator interface. (Left: live video  from the robot camera and bitrate cap control. Right: motion control buttons and real-time control latency display.)
 </div>
 <br><br>
 
 <div align="center">
-  <img src="rtt.png" width="100%" title="workflow"><br>
+  <img src="rtt.png" width="50%" title="workflow"><br>
   <strong>Figure 4.</strong> RTT ping-pong scheme over the data channel. (RTT = $t_{\text{receive}}$ $-$ $t_{\text{send}}$, both timestamps recorded on the operator clock, no clock synchronization required.)
 </div>
 <br><br>
 
 <div align="center">
-  <img src="video_latency.png" width="100%" title="workflow"><br>
+  <img src="video_latency.png" width="50%" title="workflow"><br>
   <strong>Figure 5.</strong> The pipeline of video stream processing and transmission.
 </div>
 <br><br>
@@ -51,7 +51,7 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 <br><br>
 
 <div align="center">
-  <img src="stopwatch.png" width="100%" title="workflow"><br>
+  <img src="stopwatch.png" width="80%" title="workflow"><br>
   <strong>Figure 7.</strong> End-to-end highest latency and lowest latency for video reviewer in the same city (T7). (up: highest 259 ms, bottom: lowest 124 ms, mean: 183 ms.)
 </div>
 <br><br>
