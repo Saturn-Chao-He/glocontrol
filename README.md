@@ -57,51 +57,9 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 <br><br>
 
 
-## 1. Data
-**Data** : 
-[[bin]](https://github.com/Saturn-Chao-He/dual-LiDAR-object-detection/tree/main/bin)
-
-## 2. Environment (Ubuntu 20.04, ROS 1 Noetic)
-
-Create Python environment and install the required packages:
-```bash
-conda env create -f dual.yaml
-conda activate dual
-
-```
-
-## 3. Ternimal 1
-Run
-```bash
-export DISABLE_ROS1_EOL_WARNINGS=1
-source /opt/ros/noetic/setup.bash
-roscore
-```
-
-## 4. Ternimal 2
-Run
-```bash
-rviz -d detect.rviz -f velodyne
-```
-
-## 5. VSCode
-Run
-```bash
-# conda env: dual
-export DISABLE_ROS1_EOL_WARNINGS=1
-source /opt/ros/noetic/setup.bash
-python detect.py
-```
-
-
-
 ## Acknowledgement
-Great thanks to the Q building of Kennesaw State University.
+Great thanks to Kennesaw State University and NSF. This work was supported by the National Science Foundation (NSF) under Grant No. 2346936.
 
 ## Cite
 If this project is useful in your research, please cite:
-> He, C., & Hu, D. (2026). Dual-LiDAR Point Cloud Fusion with Automatic Alignment for Enhanced 3D Object Detection in Construction Site Environments.
-
-Related paper:
-> He, C., & Hu, D. (2026). A LiDAR-Driven Framework for Real-Time Monitoring and Speed Tracking on Construction Sites.
-
+> He, C., & Hu, D. (2026). GloControl: Global Teleoperation of Robots for Disaster Response Using WebRTC over Internet.
