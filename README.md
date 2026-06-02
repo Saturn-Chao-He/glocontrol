@@ -14,45 +14,45 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 
 <div align="center">
   <img src="arc.png" width="100%" title="workflow"><br>
-  <strong>Figure 1.</strong> Complete System Workflow.
+  <strong>Figure 1.</strong> loControl system architecture. The robot streams H.264 video and receives motion commands through a cloud-hosted Janus WebRTC server over theInternet. The operator requires only a standard web browser. Internet connectivity can be provided by 5G or Starlink, enabling operation in infrastructure-denied disaster environments.
 </div>
 <br><br>
 
 
 <div align="center">
-  <img src="2.png" width="100%" title="workflow"><br>
-  <strong>Figure 2.</strong> The Setup of the Data Collection (note: for visualization purposes, the LiDAR sensors appear closer together in this photograph than their actual deployment configuration. The operational sensor separation during data collection is 24 meters; photographing at true scale would render the individual sensors too small to distinguish clearly.).
+  <img src="robot.png" width="100%" title="workflow"><br>
+  <strong>Figure 2.</strong> Disaster response robot is holding medicine and gauze and ready to deliver.
 </div>
 <br><br>
 
 
 <div align="center">
-  <img src="3.png" width="100%" title="workflow"><br>
-  <strong>Figure 3.</strong> Background Filtering (the foreground object is an excavator.).
+  <img src="ui.png" width="100%" title="workflow"><br>
+  <strong>Figure 3.</strong> GloControl operator interface. (Left: live video  from the robot camera and bitrate cap control. Right: motion control buttons and real-time control latency display.)
 </div>
 <br><br>
 
 <div align="center">
-  <img src="4.png" width="100%" title="workflow"><br>
-  <strong>Figure 4.</strong> Background Reconstruction in Bird’s Eye View.
+  <img src="rtt.png" width="100%" title="workflow"><br>
+  <strong>Figure 4.</strong> RTT ping-pong scheme over the data channel. (RTT = $t_{\text{receive}}$ $-$ $t_{\text{send}}$, both timestamps recorded on the operator clock, no clock synchronization required.)
 </div>
 <br><br>
 
 <div align="center">
-  <img src="5.png" width="100%" title="workflow"><br>
-  <strong>Figure 5.</strong> Bird's Eye View Visualization of Entire Construction Site (red: left LiDAR, blue: right LiDAR).
+  <img src="video_latency.png" width="100%" title="workflow"><br>
+  <strong>Figure 5.</strong> The pipeline of video stream processing and transmission.
 </div>
 <br><br>
 
 <div align="center">
-  <img src="6.png" width="100%" title="workflow"><br>
-  <strong>Figure 6.</strong> Details of Objects after Automatic Alignment (red: left LiDAR, blue: right LiDAR).
+  <img src="map.png" width="100%" title="workflow"><br>
+  <strong>Figure 6.</strong> Cities on the map in this experiment. (blue: operator, red: cloud server, green: robot.)
 </div>
 <br><br>
 
 <div align="center">
-  <img src="7.png" width="100%" title="workflow"><br>
-  <strong>Figure 7.</strong> Bird's Eye View of Results for Single-LiDAR System (Left) and Dual-LiDAR system (Right) (red: excavator, green: worker).
+  <img src="stopwatch.png" width="100%" title="workflow"><br>
+  <strong>Figure 7.</strong> End-to-end highest latency and lowest latency for video reviewer in the same city (T7). (up: highest 259 ms, bottom: lowest 124 ms, mean: 183 ms.)
 </div>
 <br><br>
 
