@@ -27,7 +27,7 @@ Global teleoperation of robots in disaster response scenarios demands low-latenc
 
 
 <div align="center">
-  <img src="ui.png" width="50%" title="workflow"><br>
+  <img src="ui.png" width="70%" title="workflow"><br>
   <strong>Figure 3.</strong> GloControl operator interface. (Left: live video  from the robot camera and bitrate cap control. Right: motion control buttons and real-time control latency display.)
 </div>
 <br><br>
